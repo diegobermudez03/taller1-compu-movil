@@ -4,6 +4,9 @@ plugins {
 }
 
 android {
+    buildFeatures{
+        viewBinding = true
+    }
     namespace = "com.compumovil.taller1"
     compileSdk = 34
 
